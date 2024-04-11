@@ -1,0 +1,154 @@
+/* Global Styles */
+img {
+    display:block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(23, 1, 43);
+}
+
+#container {
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: aqua;
+    text-decoration: none;
+}
+
+/* Mobile Styles */
+nav {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: beige;
+    background-color: rgb(28, 1, 53);
+    text-align: center;
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: rgb(5, 13, 121);
+}
+
+header h1 {
+    font-size: 35px;
+    color: rgb(7, 7, 126);
+}
+
+main {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#lower {
+    border: 2px solod black;
+    padding: 10px;
+}
+
+.col {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.button {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    background-color: rgb(83, 30, 133);
+    width: 125px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.button:hover {
+    color: rgb(17, 17, 17);
+}
+
+/* Tablet Syles */
+
+@media (min-width: 786px) {
+    nav {
+        text-align: center;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        width: 200px;
+    }
+
+    main img {
+        width: 50%;
+    }
+
+    #lower {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .col img {
+        width: 75%;
+    }
+
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+    }
+
+    #lower {
+        width: 100%;
+        display: flex;
+    }
+
+    .col {
+        width: 33.33%;
+    }
+    
+}
